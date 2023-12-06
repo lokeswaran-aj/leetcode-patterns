@@ -10,7 +10,7 @@ Leetcode patterns refer to certain types of problems that frequently appear on t
 
 ## Leetcode Patterns
 
-1. Sliding Window
+1. [Sliding Window](sliding-window-technique.md)
 2. Two Pointers
 3. Stack
 4. Binary Search
@@ -27,3 +27,7 @@ Leetcode patterns refer to certain types of problems that frequently appear on t
 15. Intervals
 16. Math and Geometry
 17. Bit Manipulation
+
+I explain the above patterns and solve many problems under each pattern on [Neetcode.io](https://neetcode.io/practice).
+
+Connect with me in [LinkedIn](https://www.linkedin.com/in/lokeswaran-aj/), [X.com](https://twitter.com/lokeswaran\_aj)
