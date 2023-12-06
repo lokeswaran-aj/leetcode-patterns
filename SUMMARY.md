@@ -6,3 +6,4 @@
   * [Longest Substring Without Repeating Characters](sliding-window-technique/longest-substring-without-repeating-characters.md)
   * [Longest Repeating Character Replacement](sliding-window-technique/longest-repeating-character-replacement.md)
   * [Permutation in String](sliding-window-technique/permutation-in-string.md)
+  * [Minimum Window Substring](sliding-window-technique/minimum-window-substring.md)
