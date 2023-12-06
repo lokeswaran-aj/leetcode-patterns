@@ -35,8 +35,7 @@ Space Complexity: O(N), because we use a set to maintain the characters in the s
 
 ## Solution
 
-````python
-```python3
+```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         start = -1
@@ -61,4 +60,3 @@ class Solution:
             
         return longestSubstring
 ```
-````

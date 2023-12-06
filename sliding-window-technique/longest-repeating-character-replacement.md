@@ -43,8 +43,7 @@ Space Complexity: O(26), because at most the dictionary could contain all the 26
 
 ## Solution
 
-````python
-```python3
+```python
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         start = -1
@@ -75,4 +74,3 @@ class Solution:
 
         return maxLength
 ```
-````
