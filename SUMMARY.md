@@ -8,3 +8,4 @@
   * [Permutation in String](sliding-window-technique/permutation-in-string.md)
   * [Minimum Window Substring](sliding-window-technique/minimum-window-substring.md)
   * [Sliding Window Maximum](sliding-window-technique/sliding-window-maximum.md)
+* [Two-Pointer Technique](two-pointer-technique.md)
