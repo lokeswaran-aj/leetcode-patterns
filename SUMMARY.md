@@ -10,3 +10,4 @@
   * [Sliding Window Maximum](sliding-window-technique/sliding-window-maximum.md)
 * [Two-Pointer Technique](two-pointer-technique/README.md)
   * [Valid Palindrome](two-pointer-technique/valid-palindrome.md)
+  * [Two Sum II - Input Array Is Sorted](two-pointer-technique/two-sum-ii-input-array-is-sorted.md)
