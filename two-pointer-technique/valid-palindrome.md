@@ -1,3 +1,7 @@
+---
+description: easy
+---
+
 # Valid Palindrome
 
 ## Question
@@ -24,7 +28,7 @@
 
 ## Intuition
 
-To solve this, we can use the **Left and Right Pointers technique**. We can keep going until the `left` and `right` pointers cross. Firstly, check if the characters at left and right are alphabets or numbers by using the `string.isalnum()` method while the left and right don't cross. If they are not alphanumeric characters, we can move the pointer inward. Finally, check if the characters are the same or not.
+To solve this, we can use the **two-pointer technique**. We can keep going until the `left` and `right` pointers cross. Firstly, check if the characters at left and right are alphabets or numbers by using the `string.isalnum()` method while the left and right don't cross. If they are not alphanumeric characters, we can move the pointer inward. Finally, check if the characters are the same or not.
 
 ## Time and Space Complexity
 

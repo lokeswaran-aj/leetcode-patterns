@@ -1,3 +1,7 @@
+---
+description: medium
+---
+
 # Two Sum II - Input Array Is Sorted
 
 ## Question
@@ -28,7 +32,7 @@
 
 ## Intuition
 
-* To solve this, we can use the **Left and Right Pointers technique**. Use two pointers denoted by `left` and `right`, where left is pointing to the first index and right is pointing to the last index initially.
+* To solve this, we can use the **two-pointer technique**. Use two pointers denoted by `left` and `right`, where left is pointing to the first index and right is pointing to the last index initially.
 * While left is less than right, if the sum of the elements corresponding to the left and right index results in `target`, return a list of left and right after adding 1 to each of them because the problem statement states that the given array is a **1-indexed** array.
 * If the sum is greater than the target, the right index has to be decreased by one.
 * Lastly, if the sum is less than the target, the left index has to be increased by one.

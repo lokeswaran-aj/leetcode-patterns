@@ -1,3 +1,7 @@
+---
+description: Medium
+---
+
 # 3Sum
 
 ## Question
@@ -30,7 +34,7 @@
 
 ## Intuition
 
-* This problem is a superset of the [Two Sum](https://leetcode.com/problems/two-sum/description/) problem. To solve this, we can use the **Left and Right pointers technique**.
+* This problem is a superset of the [Two Sum](https://leetcode.com/problems/two-sum/description/) problem. To solve this, we can use the **two-pointer technique**.
 * First of all, sort the input array so that we can use the two-pointer technique.
 * Loop from the first value, then use two pointers denoted by `left` and `right`, where left is pointing to the `i+1` index and right is pointing to the last index initially.
 * If the sum is greater than 0, the right index has to be decreased by one.

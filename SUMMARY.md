@@ -13,4 +13,4 @@
   * [Two Sum II - Input Array Is Sorted](two-pointer-technique/two-sum-ii-input-array-is-sorted.md)
   * [3Sum](two-pointer-technique/3sum.md)
   * [Container With Most Water](two-pointer-technique/container-with-most-water.md)
-  * [42. Trapping Rain Water](two-pointer-technique/42.-trapping-rain-water.md)
+  * [Trapping Rain Water](two-pointer-technique/trapping-rain-water.md)

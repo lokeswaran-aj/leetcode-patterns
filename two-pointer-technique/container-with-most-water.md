@@ -1,3 +1,7 @@
+---
+description: medium
+---
+
 # Container With Most Water
 
 ## Question
@@ -30,7 +34,7 @@
 
 ## Intuition
 
-* To solve this, we can use the **Left and Right pointers technique**.
+* To solve this, we can use the **two-pointer technique**.
 * Use two pointers denoted by `left` and `right`, where left is pointing to the first index and right is pointing to the last index initially.
 * To calculate the `current amount`, take the _minimum_ height value between left and right height and multiply it by the _difference_ in the left and right index.
 * Update the result if the current amount is _greater than_ the result.

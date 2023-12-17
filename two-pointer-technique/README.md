@@ -26,33 +26,9 @@ Look out for problem statements that involve **searching for a pair or a subarra
 
 ## Types of Two-Pointer Techniques
 
-1. Fast and Slow Pointers
-2. Left and Right Pointers
+1. Left and Right Pointers
 
 ## Python Template for the Two-Pointer Algorithm
-
-### Fast and Slow Pointers
-
-```python
-def fast_slow_pointers_algorithm(nums):
-    # Initialize fast and slow pointers
-    fast, slow = 0, 0
-    result = initialize_result()  # Initialize result based on the problem
-
-    # Traverse the list with fast and slow pointers
-    while fast < len(nums) and fast + 1 < len(nums):
-        # Update result or perform necessary operations
-        result = update_result(result, current_element)
-
-        # Move fast pointer (may move by more than 1 element)
-        fast += 2
-
-        # Move slow pointer
-        slow += 1
-
-    # Return result based on the problem statement
-    return result
-```
 
 ### Left and Right Pointers
 
