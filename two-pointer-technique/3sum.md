@@ -30,12 +30,17 @@
 
 ## Intuition
 
-* This problem is a superset of the [Two Sum](https://leetcode.com/problems/two-sum/description/) problem. To solve this, we can use the **Left and Right Pointers technique**.&#x20;
-* First of all, sort the input array so that we can use two pointers technique.
-* Loop from first value, then use two pointers denoted by `left` and `right`, where left is pointing to the `i+1` index and right is pointing to the last index initially.
-* If the sum is greater than the 0, the right index has to be decreased by one.
-* If the sum is less than the 0, the left index has to be increased by one.
+* This problem is a superset of the [Two Sum](https://leetcode.com/problems/two-sum/description/) problem. To solve this, we can use the **Left and Right pointers technique**.
+* First of all, sort the input array so that we can use the two-pointer technique.
+* Loop from the first value, then use two pointers denoted by `left` and `right`, where left is pointing to the `i+1` index and right is pointing to the last index initially.
+* If the sum is greater than 0, the right index has to be decreased by one.
+* If the sum is less than 0, the left index has to be increased by one.
 * If the sum of the numbers corresponding to the i, left and right index results in `0`, append the list of `nums` at i, left and right.
+
+> **Note:**
+>
+> * We can break the first loop when the nums\[i] is positive, because after the all the values will be more than 0. So you will not find a triplet.
+> * When we find a triplet and incement the left by 1, we need to check if value of nums\[left] == nums\[left-1] and increment the left again to avoid duplicate triplets.
 
 ## Time and Space Complexity
 
