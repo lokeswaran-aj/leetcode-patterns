@@ -50,8 +50,8 @@ def traditionalBinarySearch(array):
         else:
             return mid
     
-# Target not found
-return -1
+    # Target not found
+    return -1
 ```
 
 ## Time and Space Complexity Analysis

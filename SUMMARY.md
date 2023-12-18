@@ -14,4 +14,5 @@
   * [3Sum](two-pointer-technique/3sum.md)
   * [Container With Most Water](two-pointer-technique/container-with-most-water.md)
   * [Trapping Rain Water](two-pointer-technique/trapping-rain-water.md)
-* [Binary Search Pattern](binary-search-pattern.md)
+* [Binary Search Pattern](binary-search-pattern/README.md)
+  * [Binary Search](binary-search-pattern/binary-search.md)
