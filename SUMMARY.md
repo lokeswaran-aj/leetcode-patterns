@@ -16,3 +16,4 @@
   * [Trapping Rain Water](two-pointer-technique/trapping-rain-water.md)
 * [Binary Search Pattern](binary-search-pattern/README.md)
   * [Binary Search](binary-search-pattern/binary-search.md)
+  * [Search a 2D Matrix](binary-search-pattern/search-a-2d-matrix.md)
