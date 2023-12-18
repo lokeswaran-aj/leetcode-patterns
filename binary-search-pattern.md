@@ -30,24 +30,25 @@ Whenever we are given a sorted Array or Matrix, and we are asked to find a certa
 
 ```python
 def traditionalBinarySearch(array):
-    # Initialize the left and right pointers
-    left = 0
-    right = len(array)-1
+    # Initialize the start and end pointers
+    start = 0
+    end = len(array)-1
     
-    while left <= right:
+    while start <= end:
     
         # Calculate mid
-        mid = left + (right - left) // 2
+        mid = start + (end - start) // 2
     
-        # Check if the target is in the middle
-        if array[mid] == target:
-            return mid
-        # If the target is in the left half
+
+        # Check if the target is in the second half
+        if array[mid] < target:
+            start = mid + 1
+        # If the target is in the first half
         elif array[mid] > target:
-            right = mid - 1
-        # If the target is in the right half
+            end = mid - 1
+        # If the target is in the middle
         else:
-            left = mid + 1
+            return mid
     
 # Target not found
 return -1
@@ -63,6 +64,6 @@ return -1
 **Space Complexity**
 
 * Space complexity: O(1), as the algorithm typically uses a constant amount of extra space, regardless of the input size.
-* The space required for variables like `left`, `right`, and `mid` remains constant.
+* The space required for variables like `start`, `end`, and `mid` remains constant.
 
 \
