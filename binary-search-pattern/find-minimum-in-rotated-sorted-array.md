@@ -34,13 +34,13 @@ description: medium
 
 ## Intuition
 
-* To solve this, we can use the **modifed binary search pattern**.
+* To solve this, we can use the **modified binary search pattern**.
 * Initially, we assign the `start` and `end` to 1 and the maximum number in the array
 * Find the middle. If the middle value is greater than end value, move the end to `middle - 1`,  else move the start to `middle + 1`
 
 ## Time and Space Complexity
 
-Time Complexity: O(N), where N is the length of the `nums`
+Time Complexity: O(log N), where N is the length of the `nums`
 
 Space Complexity: O(1)
 

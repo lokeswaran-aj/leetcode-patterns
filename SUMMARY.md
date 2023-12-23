@@ -19,3 +19,4 @@
   * [Search a 2D Matrix](binary-search-pattern/search-a-2d-matrix.md)
   * [Koko Eating Bananas](binary-search-pattern/koko-eating-bananas.md)
   * [Find Minimum in Rotated Sorted Array](binary-search-pattern/find-minimum-in-rotated-sorted-array.md)
+  * [Search in Rotated Sorted Array](binary-search-pattern/search-in-rotated-sorted-array.md)
